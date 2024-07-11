@@ -1,0 +1,16 @@
+body {
+    background-color:grey;
+}
+h1 {
+    border: red;
+    color:black;
+    font-size:50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+p {
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique
+}

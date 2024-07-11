@@ -1,0 +1,109 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(27, 62, 31);
+    color: white;
+    position:sticky;
+    width: 100%;
+}
+h1{
+    padding: 15px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+img{
+    padding: 25px;
+    height: 200px;
+    width: 200px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.skill{
+    background-color: rgb(244, 241, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ol{
+    list-style-type: none;
+    color: white;
+}
+ol li{
+    background-color: rgb(70, 70, 215);
+    margin: 20px;
+    font-size: 22px;
+    padding: 15px;
+    text-align: center;
+}
+
+#project{
+    
+    background-color: rgba(105, 40, 17, 0.822);
+    padding: 50px 0;
+}
+.projectimage2 img{
+    
+    height: 450px;
+    width: 450px;
+}
+.projectimage1 img{
+    height: 450px;
+    width: 450px;
+    
+}
+.pro{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.projectimage1{
+    text-align: center;
+    width: 450px;
+}
+.projectimage2{
+    text-align: center;
+    width: 450px;
+}
+.text{
+    width: 380px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.end{
+    background-color: rgb(27, 62, 31);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+.end h1{
+    font-size: 30px;
+}
+.end p{
+    font-size: 15px;
+}
+footer{
+    background-color: rgb(49, 48, 48);
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding: 40px 0;
+}

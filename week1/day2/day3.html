@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <table>
+        <tr>
+            <td><label for="ecourse">Enter Course code</label></td>
+            <td><input type="text" id="ename" pattern="[A-Z]{3}[0-9]{3}[A-Z]{3}[0-9]{3}"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ecolor">Enter Color</label>
+            </td>
+            <td>
+                <input type="text" pattern="#[0-9a-z0-9]{6}">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="phno">Phonenumber</label></td>
+                    <td> <input type="text" id="phno" pattern="[1-9]{10}" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="splchar">splcharacter</label>
+            </td>
+            <td>
+                <input type="text" id="splchar" pattern="/([0-9]{3}/)[0-9]{3}-[0-9]{3]}">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

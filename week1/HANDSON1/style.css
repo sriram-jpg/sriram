@@ -1,0 +1,29 @@
+
+body {
+    border-style:solid;
+    text-align: center;
+   margin: 100px;
+    h1{
+        border:double;
+        font-size: medium;
+        background-color: brown;
+    }
+    img{
+        border:double;
+        width: 100px
+    }
+    }
+    div{
+        border: 100px;
+        background-color:white;
+        color:black;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-style: italic;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    button {
+        background-color: red;
+    }
